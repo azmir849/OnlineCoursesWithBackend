@@ -5,7 +5,7 @@ const connectDB = async () =>{
             
     });
 
-    console.log(`mongodb connected : ${conn.connection.host}`)
+    console.log(`mongodb connected : ${conn.connection.host}`.cyan.underline.bold)
 }
 
 
