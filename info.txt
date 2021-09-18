@@ -1,0 +1,14 @@
+NODE_ENV=development
+PORT=5000
+MONGO_URI=mongodb+srv://ah123:ah123@cluster0.akwip.mongodb.net/bootcamp?retryWrites=true&w=majority
+
+GEOCODER_PROVIDER=mapquest
+GEOCODER_API_KEY=HFSqXG0TUGOVKRrmn6Zdl3n34mfeg29c
+
+FILE_UPLOAD_PATH=./public/uploads
+MAX_FILE_UPLOAD=1000000
+
+
+JWT_SECRET=jhgfdsyjhijfdiuyt564
+JWT_EXPIRE=30d
+JWT_COOKIE_EXPIRE=30
